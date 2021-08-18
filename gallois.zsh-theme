@@ -17,4 +17,4 @@ ${ZSH_THEME_GIT_PROMPT_PREFIX}${branch}${ZSH_THEME_GIT_PROMPT_SUFFIX}"
 
 # Combine it all into a final right-side prompt
 RPS1="\$(git_custom_status)\${RPS1:+ $RPS1}"
-PROMPT='%{$fg[cyan]%}%t %{$fg[red]%}[%~% ]%(?.%{$fg[green]%}.%{$fg[red]%})%B λ%b '
+PROMPT='%{$fg[cyan]%}%B%t%b %{$fg[red]%}[%~% ]%(?.%{$fg[green]%}.%{$fg[red]%})%B λ%b '
