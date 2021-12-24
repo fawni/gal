@@ -2,7 +2,7 @@
 
 gal is a minimalst zsh theme intended primarly for personal use. based on [gallois](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gallois.zsh-theme).
 
-![scrot](https://github.com/slowstab/gal/blob/master/assets/scrot.png)
+![scrot](./assets/scrot.png)
 
 ## installation
 
