@@ -4,37 +4,41 @@ gal is a minimalst zsh theme intended primarly for personal use. based on [gallo
 
 ![scrot](./assets/scrot.png)
 
-## installation
+## Installation
 
-- ### [zinit](https://github.com/zdharma-continuum/zinit)
+### [zinit](https://github.com/zdharma-continuum/zinit)
 
-  ```sh
-  zinit ice wait'!0'
-  zinit light x6r/gal
-  ```
+```sh
+zinit ice wait'!0'
+zinit light x6r/gal
+```
 
-  - in `.zshrc`
+_in `.zshrc`_
 
-- ### [antigen](https://github.com/zsh-users/antigen)
+### [antigen](https://github.com/zsh-users/antigen)
 
-  ```sh
-  antigen theme x6r/gal gal
-  ```
+```sh
+antigen theme x6r/gal gal
+```
 
-  - in `.zshrc`
+_in `.zshrc`_
 
-- ### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-  - clone this repo
+clone repo
 
-  - symlink the theme file
+```sh
+git clone https://github.com/x6r/gal
+```
 
-  ```sh
-  ln -s gal/gal.zsh-theme ~/.ohmyzsh/themes/
-  ```
+symlink theme file
 
-  - set the theme in `.zshrc`
+```sh
+ln -s gal/gal.zsh-theme ~/.ohmyzsh/themes/
+```
 
-  ```sh
-  ZSH_THEME="gal"
-  ```
+set the theme in `.zshrc`
+
+```sh
+ZSH_THEME="gal"
+```
