@@ -10,7 +10,7 @@ gal is a minimalst zsh theme intended primarly for personal use. based on [gallo
 
 ```sh
 zinit ice wait'!0'
-zinit light x6r/gal
+zinit light fawni/gal
 ```
 
 _in `.zshrc`_
@@ -18,7 +18,7 @@ _in `.zshrc`_
 ### [antigen](https://github.com/zsh-users/antigen)
 
 ```sh
-antigen theme x6r/gal gal
+antigen theme fawni/gal gal
 ```
 
 _in `.zshrc`_
@@ -28,7 +28,7 @@ _in `.zshrc`_
 clone repo
 
 ```sh
-git clone https://github.com/x6r/gal
+git clone https://github.com/fawni/gal
 ```
 
 symlink theme file
